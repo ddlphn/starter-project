@@ -1,0 +1,26 @@
+{
+  "name": "sass-starter",
+  "version": "1.0.0",
+  "description": "Simple SASS Starter",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch src/scss -o dist/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DelpDuss/Sass-starter.git"
+  },
+  "keywords": [
+    "Sass",
+    "Starter"
+  ],
+  "author": "Dlphn Dsst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DelpDuss/Sass-starter/issues"
+  },
+  "homepage": "https://github.com/DelpDuss/Sass-starter#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
