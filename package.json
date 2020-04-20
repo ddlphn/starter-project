@@ -4,7 +4,10 @@
   "description": "Simple SASS Starter",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --watch src/scss -o dist/css"
+    "scss": "node-sass --include-path scss src/scss/main.scss dist/css/main.css",
+    "watch": "nodemon -e scss -x \"npm run scss\"",
+    "sync": "browser-sync start --server --files \"**/*\" ",
+    "dev": "concurrently \"npm run watch\" \"npm run sync\""
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,9 @@
   },
   "homepage": "https://github.com/DelpDuss/Sass-starter#readme",
   "dependencies": {
-    "node-sass": "^4.13.1"
+    "browser-sync": "^2.26.7",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.3",
+    "concurrently": "^5.1.0"
   }
 }

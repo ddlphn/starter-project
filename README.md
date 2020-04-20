@@ -9,7 +9,7 @@ git clone https://github.com/DelpDuss/Sass-starter.git projectName
 cd projectName
 rm -rf .git
 npm install
-npm run scss
+npm run dev
 ```
 
 ## Inspiration & Ressources
