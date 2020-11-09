@@ -1,6 +1,6 @@
-# SASS Starter
+# Starter project
 
-Simple SASS & HTML Starter for testing stuff or starting small projects.
+Simple starter kit for testing stuff.
 
 ## Installation & Usage
 
@@ -18,7 +18,3 @@ npm run dev
 - [7-1 Architecture](https://github.com/HugoGiraudel/sass-boilerplate)
 - [Normalize](https://github.com/necolas/normalize.css/)
 - [BEM Syntax](https://github.com/getbem/getbem.com/)
-
-## Author
-
-[Dlphn Dsst](https://github.com/DelpDuss)
