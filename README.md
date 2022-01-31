@@ -20,16 +20,16 @@ gulp build
 
 ### Dependencies
 
-@babel/core
-@babel/preset-env
-browser-sync
-gulp
-gulp-autoprefixer
-gulp-babel
-gulp-concat
-gulp-rename
-gulp-sass
-gulp-uglify
-jquery
-sass
-gulp-sass-glob
+- @babel/core
+- @babel/preset-env
+- browser-sync
+- gulp
+- gulp-autoprefixer
+- gulp-babel
+- gulp-concat
+- gulp-rename
+- gulp-sass
+- gulp-uglify
+- jquery
+- sass
+- gulp-sass-glob
