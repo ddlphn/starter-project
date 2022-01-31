@@ -1,32 +1,38 @@
 {
-  "name": "sass-starter",
+  "name": "gulp-starter",
   "version": "1.0.0",
-  "description": "Simple SASS Starter",
+  "description": "Basic Gulp Starter",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --include-path scss src/scss/main.scss dist/css/main.css",
-    "watch": "nodemon -e scss -x \"npm run scss\"",
-    "sync": "browser-sync start --server --files \"**/*\" ",
-    "dev": "concurrently \"npm run watch\" \"npm run sync\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DelpDuss/Sass-starter.git"
   },
-  "keywords": [
-    "Sass",
-    "Starter"
-  ],
-  "author": "Dlphn Dsst",
+  "author": "DlphnDsst",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/DelpDuss/Sass-starter/issues"
   },
   "homepage": "https://github.com/DelpDuss/Sass-starter#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/preset-env": "^7.16.11",
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.6.0",
+    "sass": "^1.49.0"
+  },
   "dependencies": {
-    "browser-sync": "^2.26.7",
-    "node-sass": "^4.13.1",
-    "nodemon": "^2.0.3",
-    "concurrently": "^5.1.0"
+    "gsap": "^3.9.1",
+    "swiper": "^7.4.1"
   }
 }
